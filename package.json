@@ -1,0 +1,28 @@
+{
+  "name": "lqe",
+  "version": "1.0.0",
+  "description": "LocalStorage gone database lol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x20F/LQE.git"
+  },
+  "keywords": [
+    "database",
+    "storage",
+    "local",
+    "browser"
+  ],
+  "author": "0x20F, Chris999",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/0x20F/LQE/issues"
+  },
+  "homepage": "https://github.com/0x20F/LQE#readme",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
