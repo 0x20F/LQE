@@ -1,3 +1,5 @@
+import Engine from './engine/engine';
+
 declare global {
     interface Window { lqe: any; }
 }
@@ -7,5 +9,5 @@ export default function bootstrap() {
         throw new Error('Unable to initialize LQE');
     }
 
-    window.lqe = new DOMParser();
+    window.lqe = new Engine();
 }
