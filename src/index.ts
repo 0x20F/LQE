@@ -3,6 +3,9 @@ declare global {
 }
 
 export default function bootstrap() {
-    console.log("HELLO WORLD");
+    if (typeof window === 'undefined') {
+        throw new Error('Unable to initialize LQE');
+    }
+
     window.lqe = new DOMParser();
 }
