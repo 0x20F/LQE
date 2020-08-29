@@ -1,4 +1,4 @@
-# LQE
+# LQE (WIP)
 
 # What?
 * LQE => Local Query Engine
