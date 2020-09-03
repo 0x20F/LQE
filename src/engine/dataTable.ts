@@ -14,7 +14,7 @@ export default class DataTable {
      * @param key string
      * @param data Object
      */
-    set = (data: Object): DataTable => {
+    public set = (data: Object): DataTable => {
         this.rows.push(data);
         return this;
     }
@@ -23,15 +23,15 @@ export default class DataTable {
      * Returns all rows
      * @param key string
      */
-    getRows = (): any => {
+    public getRows = (): any => {
         return this.rows;
     }
 
-    filter = () => {
+    public filter = () => {
         // ...
     }
 
-    toJson = (): string => {
+    public toJson = (): string => {
         return JSON.stringify(this.getRows());
     }
 }
