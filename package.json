@@ -1,5 +1,5 @@
 {
-  "name": "lqe",
+  "name": "@0x20F/lqe",
   "version": "1.0.0",
   "description": "LocalStorage gone database lol",
   "main": "index.js",
